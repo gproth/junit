@@ -102,7 +102,7 @@ public class ATM {
       balance = balance - amount;
       numberOfWithdrawals++;
     }
-    return amount;
+    return balance;
   }
 
 }
